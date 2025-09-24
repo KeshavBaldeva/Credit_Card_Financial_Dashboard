@@ -1,34 +1,50 @@
-Credit Card Financial Dashboard
-This project is an interactive financial dashboard built in Power BI to analyze weekly credit card transaction and customer data from a SQL database.
+# Credit Card Financial Dashboard
 
-Dashboard Preview
-(Note: Replace the placeholder above with a screenshot of your dashboard.)
+This project is an **interactive financial dashboard** built in **Power BI** to analyze weekly credit card transactions and customer data from a **PostgreSQL database**.
 
-Key Performance Indicators (KPIs)
-The dashboard tracks critical metrics, including:
+---
 
-Total Revenue: $55.4M
+## 📊 Dashboard Preview
+<!-- Add a screenshot of your dashboard here -->
 
-Total Interest: $7.9M
+---
 
-Total Transactions: 657K
+## 🔑 Key Performance Indicators (KPIs)
 
-Key Insight: A 28.8% revenue increase was identified in the final week's analysis.
+The dashboard tracks critical financial and customer metrics, including:
 
-Top Drivers: Blue & Silver cards account for 93% of transactions, with TX, NY, & CA contributing 68% of revenue.
+- **Total Revenue:** $55.4M  
+- **Total Interest:** $7.9M  
+- **Total Transactions:** 657K  
+- **Key Insight:** A **28.8% revenue increase** was identified in the final week's analysis.  
+- **Top Drivers:** Blue & Silver cards account for **93% of transactions**, with TX, NY, & CA contributing **68% of revenue**.  
 
-Technology Stack
-Data Visualization: Power BI
+---
 
-Database: SQL (PostgreSQL)
+## 🛠 Technology Stack
+- **Data Visualization:** Power BI  
+- **Database:** PostgreSQL (SQL)  
+- **Data Transformation:** DAX  
 
-Data Transformation: DAX
+---
 
-Setup
-Create Database: Set up a PostgreSQL database.
+## 🚀 How to Use
 
-Run SQL Script: Execute SQL Query - Financial Dashboard Data.sql to create the table structures.
+1. **Set up the Database:** Create a new PostgreSQL database.  
+2. **Create Tables:** Run the `Financial Dashboard Data.sql` script to create the necessary tables.  
+3. **Import Data:** In the `.sql` script, update the file paths in the `COPY` commands to point to your local `.csv` files and execute the script.  
+4. **Connect Power BI:** Open the Power BI file and connect it to your PostgreSQL database to load the data and view the dashboard.  
 
-Import Data: In the .sql script, update the file paths in the COPY commands to your local .csv file locations and run them.
+---
 
-Connect Power BI: Link Power BI to your SQL database to load the tables and build the reports.
+## 📂 Project Structure
+- `Financial Dashboard Data.sql` → SQL script to create tables and load data.  
+- `CreditCardDashboard.pbix` → Power BI dashboard file.  
+- `data/` → Folder containing CSV datasets.  
+
+---
+
+## 📈 Insights
+This dashboard helps track and analyze **revenue growth, customer behavior, and transaction trends** to support data-driven financial decision-making.  
+
+---
